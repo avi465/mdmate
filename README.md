@@ -17,7 +17,7 @@ A cli tool for fast and quick markdown generation.
   <a href="https://www.github.com/avi465/mdmate/issues/new?assignees=&labels=feature&template=features.yml&title=%5BFEATURE%5D+%3Cdescription%3E">Request Feature</a>
 </p>
  
-  ### 🖼️ Screenshot
+<!--   ### 🖼️ Screenshot -->
 
   ![image](https://github.com/avi465/mdmate/blob/main/img/preview.png)
 
@@ -53,7 +53,7 @@ Check out the website: [Mdmate]()
 
 ## 🛡️ License
 
-Whisper is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
