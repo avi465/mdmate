@@ -36,7 +36,6 @@ if [ "$answer" = "y" ]; then
   fi
 fi
 
-read -p "Enter logo url?: " logo_url
 read -p "Enter title?: " title
 read -p "Enter description?: " description
 read -p "Enter repo url?: " repo_url
@@ -51,33 +50,17 @@ stack_icon_endpoint='https://raw.githubusercontent.com/danielcranney/readme-gene
 back_to_top='<p align="right">(<a href="#top">back to top</a>)</p>'
 
 # writing in file
-cat <<-EOF >>$file_name
-<div id="top"></div>
-
-<div align="center">
-EOF
-
-if [ ! -z "$logo_url" ]; then
-  cat <<-EOF >>$file_name
-  <img src="$logo_url" width="120px">
-  <h2>$title</h2>
-  $(read -p "Enter subtitle?: " subtitle)
-  <p>$subtitle</p>
-EOF
-fi
-
 if [ ! -z "$repo_url" ]; then
   cat <<-EOF >>$file_name
   <img alt="GitHub Repo stars" src="$img_shield_endpoint/stars/$username/$repo_name?style=flat">
   <img alt="contributors" src="$img_shield_endpoint/contributors/$username/$repo_name?style=flat">
   <img alt="GitHub Repo forks" src="$img_shield_endpoint/forks/$username/$repo_name?style=flat">
   <img alt="issues" src="$img_shield_endpoint/issues/$username/$repo_name?style=flat"> </br>
+  
 EOF
 fi
 
 cat <<-EOF >>$file_name
-</div>
-
 # $title
 
 $description
@@ -94,8 +77,7 @@ EOF
 
 if [ ! -z "$screenshot" ]; then
   cat <<-EOF >>$file_name
-  ### 🖼️ Screenshot
-
+  ### 🌫️ Screenshot
   ![image]($screenshot)
 
   $back_to_top
@@ -104,8 +86,7 @@ EOF
 fi
 
 cat <<-EOF >>$file_name
-## 📚 Getting Started
-
+## 📜 Getting Started
 To get a local copy up and running follow these simple steps.
 
 \`\`\`bash
@@ -113,19 +94,15 @@ To get a local copy up and running follow these simple steps.
 \`\`\`
 
 ### 👇🏽 Prerequisites
-
 Before installation, please make sure you have already installed the following tools:
-
 - [Git](https://git-scm.com/downloads)
 
-## 🎨 Live demo
-
+## ☁️ Live demo
 Check out the website: [$title]($demo_url)
 
 $back_to_top
 
 ## 👩🏽‍💻 Contributing
-
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are greatly appreciated.
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
@@ -133,26 +110,20 @@ $back_to_top
 $back_to_top
 
 ## 🛡️ License
-
-Whisper is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 $back_to_top
 
 ## 💪🏽 Thanks to all Contributors
-
 Thanks a lot for spending your time helping Whisper grow. Thanks a lot! Keep rocking🍻
-
 [![Contributors](https://contrib.rocks/image?repo=$username/$repo_name)]($repo_url/graphs/contributors)
 
 $back_to_top
 
 ## 🙏🏽 Support
-
 If you like this project don't forget to leave a star🌟
 
 $back_to_top
-
 ## ✍️Author
-
 This project is made by [$author](https://www.github.com/$username)
 EOF
