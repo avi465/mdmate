@@ -78,7 +78,7 @@ fi
 cat <<-EOF >>$file_name
 </div>
 
-## $title
+# $title
 
 $description
 
