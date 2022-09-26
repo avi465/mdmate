@@ -1,8 +1,8 @@
-<div align="center">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/avi465/mdmate?style=flat">
-  <img alt="contributors" src="https://img.shields.io/github/contributors/avi465/mdmate?style=flat">
-  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/avi465/mdmate?style=flat">
-  <img alt="issues" src="https://img.shields.io/github/issues/avi465/mdmate?style=flat"> </br>
+<div align="left">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/avi465/mdmate?style=flat-square">
+  <img alt="contributors" src="https://img.shields.io/github/contributors/avi465/mdmate?style=flat-square">
+  <img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/avi465/mdmate?style=flat-square">
+  <img alt="issues" src="https://img.shields.io/github/issues/avi465/mdmate?style=flat-square"> </br>
 </div>
 
 # Mdmate
@@ -17,13 +17,13 @@ A cli tool for fast and quick markdown generation.
   <a href="https://www.github.com/avi465/mdmate/issues/new?assignees=&labels=feature&template=features.yml&title=%5BFEATURE%5D+%3Cdescription%3E">Request Feature</a>
 </p>
  
-<!--   ### 🖼️ Screenshot -->
+  ### 🌫️ Screenshot
 
   ![image](https://github.com/avi465/mdmate/blob/main/img/preview.png)
 
   <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 📚 Getting Started
+## 📜 Getting Started
 
 To get a local copy up and running follow these simple steps.
 
