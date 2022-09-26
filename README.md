@@ -37,7 +37,7 @@ Before installation, please make sure you have already installed the following t
 
 - [Git](https://git-scm.com/downloads)
 
-## 🎨 Live demo
+## ☁️ Live demo
 
 Check out the website: [Mdmate]()
 
