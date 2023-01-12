@@ -19,7 +19,7 @@ A cli tool for fast and quick markdown generation.
  
   ### 🌫️ Screenshot
 
-  <img width="479" alt="preview" src="https://user-images.githubusercontent.com/63386918/212119058-dee9e9c3-cbd0-48fd-99fe-6ce7dd4a256f.png">
+  <img alt="preview" src="https://user-images.githubusercontent.com/63386918/212119058-dee9e9c3-cbd0-48fd-99fe-6ce7dd4a256f.png">
   <!--- ![image](https://github.com/avi465/mdmate/blob/main/img/preview.png) -->
 
   <p align="right">(<a href="#top">back to top</a>)</p>
